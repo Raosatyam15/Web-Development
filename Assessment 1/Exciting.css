@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 26, 41);
+    color: rgb(221, 234, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.meme-container {
+    text-align: center;
+}
+
+.meme-container img {
+    width: 600px;
+    border: 5px solid rgb(59, 57, 57);
+}
+
+.meme-text {
+    margin-top: 20px;
+}
+
+.meme-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.meme-text p {
+    font-size: 1.2rem;
+    color: rgb(224, 229, 230);
+}
